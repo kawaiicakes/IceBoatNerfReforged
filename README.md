@@ -3,7 +3,8 @@
 </h1>
 
 <div align="center">
-Stops boats from moving fast on ice.
+Stops boats from moving fast on ice.<br>
+    <b>‼ Client and Server ✔</b> &#x09; <b>Forge 1.19.2 ✔</b>
 </div>
 
 ## **📖 Information**
