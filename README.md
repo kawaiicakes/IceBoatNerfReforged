@@ -4,7 +4,9 @@
 
 <div align="center">
 Stops boats from moving fast on ice.<br>
-    <b>‼ Client and Server ✔</b> &#x09; <b>Forge 1.19.2 ✔</b>
+    <b>‼ Client and Server ✔</b> &#x09; <b>Forge 1.19.2 ✔</b><br>
+    <a href="https://github.com/kawaiicakes/IceBoatNerfReforged">GitHub</a><br>
+    <a href="https://curseforge.com/minecraft/mc-mods/ice-boat-nerf-reforged">CurseForge</a>
 </div>
 
 ## **📖 Information**
