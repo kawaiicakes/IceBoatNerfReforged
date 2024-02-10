@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[43,)"
+loaderVersion="[40,)"
 
 license="MIT"
 issueTrackerURL="https://github.com/kawaiicakes/IceBoatNerfReforged/issues"
@@ -7,7 +7,7 @@ showAsResourcePack=false
 
 [[mods]]
 modId="iceboatnerf"
-version="1.0.0"
+version="1.1.0"
 displayName="Ice Boat Nerf"
 displayURL="https://github.com/kawaiicakes/IceBoatNerfReforged"
 logoFile="iceboatnerf.png"
@@ -20,12 +20,12 @@ Stop boats from gliding at mach 30 on ice. Instead feel the unsatisfying tactile
 [[dependencies.iceboatnerf]]
     modId="forge"
     mandatory=true
-    versionRange="[43,)"
+    versionRange="[40,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.iceboatnerf]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.2,1.20)"
+    versionRange="[1.17.1,1.20,]"
     ordering="NONE"
     side="BOTH"
