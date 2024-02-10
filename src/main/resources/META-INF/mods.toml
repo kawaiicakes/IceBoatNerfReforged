@@ -26,6 +26,6 @@ Stop boats from gliding at mach 30 on ice. Instead feel the unsatisfying tactile
 [[dependencies.iceboatnerf]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.17.1,1.20,]"
+    versionRange="[1.17.1,1.21)"
     ordering="NONE"
     side="BOTH"
