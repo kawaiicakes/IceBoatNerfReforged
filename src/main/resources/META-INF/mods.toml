@@ -7,7 +7,7 @@ showAsResourcePack=false
 
 [[mods]]
 modId="iceboatnerf"
-version="1.1.0"
+version="1.1.1"
 displayName="Ice Boat Nerf"
 displayURL="https://github.com/kawaiicakes/IceBoatNerfReforged"
 logoFile="iceboatnerf.png"
