@@ -12,7 +12,11 @@ ___
 ---
 </div>
 
----
+Stop boats from gliding at mach 30 on ice. Instead, feel the unsatisfying tactile and auditory assault of wooden paddles scraping against ice.
+Written because the only version in Forge 1.19.2 that I am aware of is bundled with quark. Sorry, Vazkii </3
+<br><br>
+Now supports NeoForge!
 
+---
 # 💗 Credits & Thanks
 Credits must be given to [supersaiyansubtlety](https://gitlab.com/supersaiyansubtlety) for discovering the correct float value for accurate boat friction.
