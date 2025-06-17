@@ -7,11 +7,13 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-@Mixin(value = Boat.class, priority = 100_000) //this is set so high to prevent other mods from accidentally modifying the return again
+@Mixin(value = Boat.class, priority = 100_000)
 public class BoatMixin {
+    /**
+     * Magic number 0.45F from <a href="https://gitlab.com/supersaiyansubtlety/ice_boat_nerf/-/blob/master/src/main/java/net/sssubtlety/ice_boat_nerf/mixin/BoatEntityMixin.java?ref_type=heads">supersaiyansubtlety's work</a>
+     */
     @Inject(method = "getGroundFriction", at = @At("RETURN"), cancellable = true)
     private void getGroundFriction(@NotNull CallbackInfoReturnable<Float> cir) {
-        cir.setReturnValue(0.45F); //magic number from supersaiyansubtlety's work.
-        //https://gitlab.com/supersaiyansubtlety/ice_boat_nerf/-/blob/master/src/main/java/net/sssubtlety/ice_boat_nerf/mixin/BoatEntityMixin.java?ref_type=heads
+        cir.setReturnValue(0.45F);
     }
 }

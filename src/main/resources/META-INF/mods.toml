@@ -1,31 +1,26 @@
-modLoader="javafml"
-loaderVersion="[40,)"
-
-license="MIT"
-issueTrackerURL="https://github.com/kawaiicakes/IceBoatNerfReforged/issues"
-showAsResourcePack=false
+modLoader = "javafml"
+issueTrackerURL = "https://github.com/kawaiicakes/IceBoatNerfReforged/issues"
+loaderVersion = "${loader_version_range}"
+license = "MIT"
 
 [[mods]]
-modId="iceboatnerf"
-version="1.1.1"
-displayName="Ice Boat Nerf"
-displayURL="https://github.com/kawaiicakes/IceBoatNerfReforged"
-logoFile="iceboatnerf.png"
-credits="Thanks to supersaiyansubtlety on GitLab for the original mod (specifically the 0.45 float value)."
-authors="kawaiicakes"
-description='''
-Stop boats from gliding at mach 30 on ice. Instead feel the unsatisfying tactile and auditory assault of wooden paddles scraping against ice.
-'''
+modId = "iceboatnerf"
+version = "${mod_version}"
+displayName = "Ice Boat Nerf"
+authors = "${mod_authors}"
+description = "${mod_description}"
+logoFile = "iceboatnerf.png"
 
 [[dependencies.iceboatnerf]]
-    modId="forge"
-    mandatory=true
-    versionRange="[40,)"
-    ordering="NONE"
-    side="BOTH"
+modId = "forge"
+mandatory = true
+versionRange = "${forge_version_range}"
+ordering = "NONE"
+side = "SERVER"
+
 [[dependencies.iceboatnerf]]
-    modId="minecraft"
-    mandatory=true
-    versionRange="[1.17.1,1.21)"
-    ordering="NONE"
-    side="BOTH"
+modId = "minecraft"
+mandatory = true
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "SERVER"

@@ -1,13 +1,18 @@
-<hr>
-<h3 id="header" style="text-align: center;">Stops boats from moving fast on ice.</h3>
-<p style="text-align: center;"><img src="https://img.shields.io/badge/mod_loader-forge-ffe8e9?style=for-the-badge&amp;labelColor=ffced2" alt="Mod Loader"> <img src="https://img.shields.io/badge/game_version-1.17.2_to_1.20.x-ffe8e9?style=for-the-badge&amp;labelColor=ffced2" alt="Game Version"> <img src="https://img.shields.io/badge/environment-client_|_server-ffe8e9?style=for-the-badge&amp;labelColor=ffced2" alt="Environment"></p>
-<p style="text-align: center;"><a href="https://curseforge.com/minecraft/mc-mods/ice-boat-nerf-reforged"><img src="https://img.shields.io/curseforge/dt/897459?style=for-the-badge&amp;logo=curseforge&amp;labelColor=ffceea&amp;color=ffe8f5" alt="Downloads"></a> <a href="https://github.com/kawaiicakes/IceBoatNerfReforged/issues"><img src="https://img.shields.io/github/issues/kawaiicakes/IceBoatNerfReforged?style=for-the-badge&amp;logo=github&amp;labelColor=ffceea&amp;color=ffe8f5" alt="Issues"></a> <a href="https://github.com/kawaiicakes/IceBoatNerfReforged/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-ffe8f5?style=for-the-badge&amp;labelColor=ffceea" alt="License"></a></p>
-<p style="text-align: center;"><a href="https://github.com/kawaiicakes"><img src="https://img.shields.io/badge/-github-fee8ff?style=for-the-badge&amp;logo=github&amp;labelColor=fcceff" alt="GitHub"></a> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://img.shields.io/badge/-discord-fee8ff?style=for-the-badge&amp;logo=discord&amp;labelColor=fcceff" alt="Discord"></a></p>
-<hr>
-<p>Stop boats from gliding at Mach 30 on ice. Instead, feel the unsatisfying tactile and auditory assault of wooden paddles scraping against ice. Written because the only version in Forge 1.19.2 that I am aware of is bundled with quark. Sorry, Vazkii &lt;/3</p>
-<hr>
-<h1 id="-credits-thanks">💗 Credits &amp; Thanks</h1>
-<p>Credits must be given to&nbsp;<span style="color: #00ccff;"><a style="color: #00ccff;" title="supersaiyansubtlety" href="https://gitlab.com/supersaiyansubtlety" target="_blank" rel="noopener noreferrer"><span style="color: #33cccc;">supersaiyansubtlety</span></a></span> for discovering the correct float value for accurate boat friction.</p>
-<hr>
-<p style="text-align: center;"><strong>Also, check out my very lovely sponsor and help me take over the world!</strong></p>
-<p><a href="https://dedimc.promo/ashley"><img title="Sponsor!" src="https://raw.githubusercontent.com/kawaiicakes/kawaiicakes.github.io/main/dedimcashley.png" alt="Sponsor!"></a></p>
+<div align="center">
+___
+
+### Stops boats from moving fast on ice.
+
+![Mod Loader](https://img.shields.io/badge/mod_loader-neoforge_|_forge-ffe8e9?style=for-the-badge&amp;labelColor=ffced2)
+![Environment](https://img.shields.io/badge/environment-server-ffe8e9?style=for-the-badge&labelColor=ffced2)
+[![Bug Reports](https://img.shields.io/github/issues/kawaiicakes/IceBoatNerfReforged?style=for-the-badge&logo=github&labelColor=ffe8e9&color=ffced2)](https://github.com/kawaiicakes/IceBoatNerfReforged/issues)
+
+[![CurseForge](https://img.shields.io/curseforge/dt/897459?style=for-the-badge&logo=curseforge&labelColor=ffceea&color=ffe8f5)](https://www.curseforge.com/minecraft/mc-mods/ice-boat-nerf-reforged)
+[![Modrinth](https://img.shields.io/modrinth/dt/foPG2Wmv?style=for-the-badge&logo=modrinth&labelColor=ffceea&color=ffe8f5)](https://modrinth.com/project/ice-boat-nerf-reforged)
+---
+</div>
+
+---
+
+# 💗 Credits & Thanks
+Credits must be given to [supersaiyansubtlety](https://gitlab.com/supersaiyansubtlety) for discovering the correct float value for accurate boat friction.
