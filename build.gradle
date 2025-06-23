@@ -1,7 +1,7 @@
 plugins {
     id 'eclipse'
     id 'maven-publish'
-    id 'net.minecraftforge.gradle' version '5.1.+'
+    id 'net.minecraftforge.gradle' version '[6.0.24,6.2)'
     id 'org.spongepowered.mixin' version '0.7.+'
 }
 
@@ -18,7 +18,7 @@ println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty '
 
 minecraft {
 
-    mappings channel: 'official', version: '1.19.2'
+    mappings channel: 'official', version: '1.21.1'
 
     runs {
         client {
@@ -55,10 +55,20 @@ minecraft {
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
-repositories {}
+repositories {
+    mavenCentral()
+    maven {
+        name = 'Forge'
+        url = 'https://maven.minecraftforge.net'
+    }
+    maven {
+        name = 'Minecraft libraries'
+        url = 'https://libraries.minecraft.net'
+    }
+}
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19.2-43.2.14'
+    minecraft 'net.minecraftforge:forge:1.21.1-52.1.0'
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
 
